@@ -1,0 +1,115 @@
+a#title {
+    font-size: 30px !important;
+}
+
+div#story-carousel {
+    max-width: min(470px, 95%);
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+
+div#story-heading {
+    width: 90%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    top: 1%;
+    display: grid;
+    grid-template-columns: auto auto repeat(2, 1fr);
+    grid-column-gap: 6px;
+    position: absolute;
+    z-index: 20;
+}
+
+div#story-footer {
+    width: 90%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    bottom: 3%;
+    display: grid !important;
+    grid-template-columns: auto auto;
+    grid-column-gap: 6px;
+    position: absolute;
+    z-index: 20;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+input#story-reply {
+    background: transparent;
+    color: white;
+    border: none;
+    border:solid 2px white;
+    border-radius: 20px;
+    width: 100%;
+}
+
+div#story-actions {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-self: end;
+}
+
+input::placeholder {
+    color: white !important;
+    opacity: 1; 
+  }
+
+#user-icon {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#user-name {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#story-time {
+    color: white;
+    opacity: 0.7;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#controls {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-self: end;
+}
+
+.carousel-indicators {
+    width: 92%;
+    position: absolute;
+    top: 1%;
+    bottom: 90%;
+    left:0px;
+    right:0px;
+    margin-right: auto;
+    margin-left: auto; 
+    z-index: 20;
+}
+
+.carousel-inner > .carousel-item {
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+button.carousel-indicator {
+    width: calc(90%/6) !important;
+}
