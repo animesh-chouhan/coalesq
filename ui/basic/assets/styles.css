@@ -5,7 +5,9 @@ a#title {
 div#story-carousel {
     max-width: min(470px, 95%);
     border-radius: 10px;
-    margin: auto;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 0px;
     overflow: hidden;
 }
 
